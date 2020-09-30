@@ -1,16 +1,11 @@
-.listTag {
+.topnavbar a {
+    float: right;
     display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-.listTag:active {
-    display: block;
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-    background-color: #4CAF50;
+    color: #f2f2f2;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    border: 1px solid aquamarine;
 }
 
 ul {
@@ -31,10 +26,18 @@ div.list {
     height: 100%; 
     left: 0;
 }
-li a {
-    display: block; color: #000; padding: 8px 16px; text-decoration: none
+
+.list ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
-li a:active {
-    display: block;color: white;padding: 8px 16px;text-decoration: none;background-color: #4CAF50;
+.list ul li a:active {
+    display: block;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #4CAF50;
 }
